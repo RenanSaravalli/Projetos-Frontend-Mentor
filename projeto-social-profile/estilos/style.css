@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100vh;
+    background-color: #141414 
+  }
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    margin:  20px;
+    margin-top: 50px;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background: #1f1f1f;
+    font-family:  "Inter", sans-serif;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+.h1{
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.p2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.p3 {
+    font-weight: 300;
+}
+
+.github {
+    background: border-box hsl(0, 0%, 20%);
+    padding: 15px 100px; 
+    padding: auto;
+    border-radius: 10px;
+    margin: 10;
+    font-weight: 600;
+
+}
+
+.github:hover {
+    background: #29292986;
+    cursor: pointer;
+}
+
+.front {
+    background-color: hsl(0, 0%, 20%); 
+    padding: 15px 65px;
+    border-radius: 10px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.front:hover {
+    background: #29292986;
+    cursor: pointer;
+}
+
+.linkd {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 97px;
+    border-radius: 10px;
+    margin: 10;
+    font-weight: 600;
+}
+.linkd:hover {
+    background: #29292986;
+    cursor: pointer;
+}
+
+
+
+.x {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 103px;
+    border-radius: 10px;
+    margin: 0;
+    font-weight: 600;
+}
+.x:hover {
+    background: #29292986;
+    cursor: pointer;
+}
+
+.insta {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 93px;
+    border-radius: 10px;
+    margin: 10;
+    margin-bottom: 40px;
+    font-weight: 600;
+    
+}
+
+.insta:hover {
+    background: #29292986;
+    cursor: pointer;
+}
+
+
+
