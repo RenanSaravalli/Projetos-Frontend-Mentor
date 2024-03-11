@@ -6,28 +6,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column ;
-    background: white;    
+    flex-flow: wrap;
+    background: rgb(255, 255, 255);   
+}
+
+.container {
+    height: 100vh;
+    width: 375px; 
+    background-color: white;
 }
 
 img {
-    width: 97vw;
+    width: 100%;
 }
 
 .intro {
     display: flex;
-    flex-direction: column ;
-    align-items: center;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     
 }
 
 h1 {
     font-family: "Young Serif", serif;
-    font-size: 2.0em;
+    font-size: 2.4em;
     font-weight: 400;  
     margin-bottom: 5px;
     margin-top: 30px;
-    padding-right: 100px;
     
 }
 
@@ -35,13 +40,13 @@ p {
     font-family: "Outfit", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding-right: 50px;
     
     
 }
 
 #preparation {
-    color: hsl(332, 51%, 32%);
+    color: hsl(332, 51%, 32%); 
+    text-align: left;
 }
 
 .time {
@@ -50,37 +55,40 @@ p {
     border-radius: 10px;
     display: flex;
     justify-items: center;
-    align-items: center;
-    flex-flow: column wrap;
-
+    flex-flow: wrap;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 h2 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     color: hsl(14, 45%, 36%);
+    
 }
 
 .ingredients {
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(36, 15%, 94%);
     font-family: "Outfit", sans-serif;
     border-radius: 10px;
     margin-top: 50px;
     display: flex;
     justify-items: center;
-    align-items: center;
+    align-items: start;
     flex-flow: column wrap;
+    padding-left: 10px;
     text-align: left;
 }
 
 .instructions {
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(36, 15%, 94%);
     font-family: "Outfit", sans-serif;
     border-radius: 10px;
     margin-top: 50px;
     display: flex;
     justify-items: center;
-    align-items: center;
+    align-items: start;
+    padding-left: 10px;
     flex-flow: column wrap;
 }
 
@@ -90,7 +98,13 @@ li {
 }
 
 .nutrition {
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(36, 15%, 94%);
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    padding-left: 10px;
     
 
 }
